@@ -1,0 +1,9 @@
+#spring:
+#  application:
+#    name: kafka-log
+#server:
+#  port: 8079
+#
+#kafka:
+#  server-host: 192.168.31.10:9092
+#  time-aop: com.huang

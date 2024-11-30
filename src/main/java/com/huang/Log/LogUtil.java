@@ -4,13 +4,6 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-30 01:58
- * @ClassName:LogUtil
- * @Description:
- **/
 @Component
 public class LogUtil {
     @Resource

@@ -13,25 +13,16 @@ public class ExecutionTimeUtil {
         }
     };
 
-    /**
-     * 记录方法开始时间
-     */
     public static void start(String methodName) {
         startTimeThreadLocal.get().put(methodName, System.nanoTime());
     }
 
-    /**
-     * 获取当前方法执行时间（单位：毫秒）
-     */
     public static long getElapsedTime(String methodName) {
         long startTime = startTimeThreadLocal.get().getOrDefault(methodName, System.nanoTime());
         long endTime = System.nanoTime();
         return (endTime - startTime) / 1000000; // 纳秒转毫秒
     }
 
-    /**
-     * 清理 ThreadLocal
-     */
     public static void clear() {
         startTimeThreadLocal.remove();
     }

@@ -5,13 +5,6 @@ import com.huang.Log.LogUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-30 13:32
- * @ClassName:Metest
- * @Description:
- **/
 @Component
 public class Metest {
     @Autowired

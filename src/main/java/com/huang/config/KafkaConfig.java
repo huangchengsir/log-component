@@ -11,13 +11,6 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Properties;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-28 22:49
- * @ClassName:KafkaConfig
- * @Description:
- **/
 @Configuration
 public class KafkaConfig {
     @Value("${spring.application.name:default}")

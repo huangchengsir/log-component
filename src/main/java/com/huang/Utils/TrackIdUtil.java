@@ -2,13 +2,6 @@ package com.huang.Utils;
 
 import java.util.UUID;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-30 21:09
- * @ClassName:TracIdUtil
- * @Description:
- **/
 public class TrackIdUtil {
 
     public static String generateTrackId(){

@@ -8,13 +8,6 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-29 23:56
- * @ClassName:LogContent
- * @Description:
- **/
 @Data
 @Builder
 @NoArgsConstructor

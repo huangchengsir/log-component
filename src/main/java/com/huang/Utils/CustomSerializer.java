@@ -7,13 +7,6 @@ import org.apache.kafka.common.serialization.Serializer;
 
 import java.text.SimpleDateFormat;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-30 00:03
- * @ClassName:CustomSerializer
- * @Description:
- **/
 public class CustomSerializer<T> implements Serializer<T> {
     @Override
     public byte[] serialize(String s, T t) {
@@ -26,6 +19,7 @@ public class CustomSerializer<T> implements Serializer<T> {
             throw new RuntimeException(e);
         }
     }
+
     @Override
     public void close() {
         Serializer.super.close();

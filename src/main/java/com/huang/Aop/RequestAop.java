@@ -22,13 +22,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-30 20:04
- * @ClassName:RequestAop
- * @Description:
- **/
 @Component
 @Aspect
 @Order(2)

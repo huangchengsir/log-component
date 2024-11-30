@@ -8,13 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.Map;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-30 20:24
- * @ClassName:testController
- * @Description:
- **/
 //@RestController
 public class testController {
 //    @Resource

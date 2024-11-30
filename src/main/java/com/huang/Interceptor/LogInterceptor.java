@@ -11,13 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-30 11:14
- * @ClassName:LogInterceptor
- * @Description:
- **/
 @Component
 public class LogInterceptor implements HandlerInterceptor{
     @Resource

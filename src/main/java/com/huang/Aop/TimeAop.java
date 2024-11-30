@@ -9,13 +9,6 @@ import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Modifier;
 
-/**
- * @program: log-kafka
- * @author: hjw
- * @create: 2024-11-30 12:43
- * @ClassName:TimeAop
- * @Description:
- **/
 @Aspect
 @Component
 @Order(1)

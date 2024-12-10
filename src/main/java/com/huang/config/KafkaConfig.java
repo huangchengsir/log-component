@@ -32,6 +32,7 @@ public class KafkaConfig {
         props.put(ProducerConfig.ACKS_CONFIG, "1"); // 等待所有副本确认消息已写入
         props.put(ProducerConfig.RETRIES_CONFIG, 3);   // 配置重试次数
         props.put(ProducerConfig.LINGER_MS_CONFIG, 1); // 延迟发送消息时间（毫秒）
+        props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, "10000"); // 超时时间10s
         // 设置批量消息的大小为 10MB
         props.put(ProducerConfig.BATCH_SIZE_CONFIG, 16384);
         props.putIfAbsent(ProducerConfig.MAX_REQUEST_SIZE_CONFIG, "10485760"); // 设置为 10MB
